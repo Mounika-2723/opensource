@@ -1,0 +1,8 @@
+v,c = input().split()
+win_conditions = {'R':'S','P':'R','S':'P'}
+if v == c:
+    print("NULL")
+elif win_conditions[v] == c:
+    print("Vignesh")
+else:
+    print("Charan")
